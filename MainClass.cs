@@ -11,6 +11,7 @@
 //В одну строку через пробел выведите сначала общую длину правдивых строк, затем строк с полуправдой, затем лживых строк.
 using System;
 
+//Debug
 namespace Олимпиада
 {
     class MyException : Exception
@@ -164,7 +165,7 @@ namespace Олимпиада
             //////////////////////////////////////////////// Вывод ответа
             Console.Write(counter_length_of_the_lines_1 + " " + counter_length_of_the_lines_2 + " " + counter_length_of_the_lines_3);
             Console.WriteLine(" ");
-            //Debug
+           
         }
     }
 }
